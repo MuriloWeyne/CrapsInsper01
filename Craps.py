@@ -8,6 +8,7 @@ saldo = 5000
 fase = "Come Out"
 while saldo > 0:
   inicio = input("Você quer jogar Craps? s/n ") 
+  print("Bem-vindo ao jogo Craps! Você dispõe de um saldo de {0} fichas iniciais e poderá apostá-las até perder todas." .format(saldo))
   lista_de_apostasComeOut = [0,0,0,0]
   if inicio == "s":
     if fase == "Come Out":
